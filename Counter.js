@@ -13,7 +13,7 @@ function Counter(props){
   }
   return <div>
   <p>{props.count}</p>
-  <button onClick={handleClick}
+  <button class="button" onClick={handleClick}
   >Increment</button>
     </div>;
 }

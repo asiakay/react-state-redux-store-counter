@@ -8,8 +8,6 @@ import './style.css';
 const initialState = {
   count: 0
 };
-
-
 // Reducer Function
 function reducer(state = initialState, action) {
   switch(action.type){
