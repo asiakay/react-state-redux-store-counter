@@ -9,10 +9,10 @@ function incrementCounter(num) {
 // Reducer Function 
 function Counter(props){
   function handleClick(){
-    props.incrementCounter(1);
+    props.incrementCounter(100);
   }
-  return <div>
-  <p>{props.count}</p>
+  return <div class="full-height"><h1>{props.count}</h1>
+  
   <button class="button" onClick={handleClick}
   >Increment</button>
     </div>;

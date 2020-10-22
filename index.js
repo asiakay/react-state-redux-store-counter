@@ -6,7 +6,7 @@ import Counter from './Counter';
 import './style.css';
 
 const initialState = {
-  count: 0
+  count: 100
 };
 // Reducer Function
 function reducer(state = initialState, action) {
