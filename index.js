@@ -5,14 +5,11 @@ import { createStore } from 'redux';
 import Counter from './Counter';
 import './style.css';
 
-const initialState = {}
-// create an action and correspondig reducer
-function incrementCounter(num){
-  return {
-  type: 'INCREMENT',
-  num: num
-  }
-}
+const initialState = {
+  count: 0
+};
+
+
 // Reducer Function
 function reducer(state = initialState, action) {
   switch(action.type){

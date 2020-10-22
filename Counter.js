@@ -1,11 +1,12 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'
 
 // Action Creator
 function incrementCounter(num) {
   return { type: 'INCREMENT', num: num}
 }
 
+// Reducer Function 
 function Counter(props){
   function handleClick(){
     props.incrementCounter(1);
@@ -22,6 +23,7 @@ function mapStateToProps(state){
     count: state.count
   };
 }
+
 const mapDispatchToProps = {
   incrementCounter
 }
