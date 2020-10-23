@@ -15,6 +15,40 @@ function Counter(props){
   
   <button class="button" onClick={handleClick}
   >Increment</button>
+
+ 
+
+
+
+ 
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="footer">
+  <p>Footer</p>
+</div>
     </div>;
 }
 
