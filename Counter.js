@@ -13,7 +13,7 @@ function Counter(props){
   }
   return <div class="full-height"><h1>{props.count}</h1>
   
-  <button class="button" onClick={handleClick}
+  <button className="button" onClick={handleClick}
   >Increment</button>
 
  
